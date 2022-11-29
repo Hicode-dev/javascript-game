@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+ 
+}
+#canvas{
+    position: absolute; 
+    border: 3px solid red; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: aqua; 
+
+height: 75%;
+    /* max-width: 100%; */
+}
+
+#player,#enemy,#background,#background2,#flying{
+    display: none;
+}
+
